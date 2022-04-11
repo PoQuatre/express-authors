@@ -23,6 +23,10 @@ const authors = [
   },
 ];
 
+app.get("/", (req, res) => {
+  res.send("Authors API");
+});
+
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log("Server started on port:", port);
