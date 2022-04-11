@@ -1,0 +1,13 @@
+{
+  "name": "authors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/PoQuatre/express-authors.git",
+  "author": "PoQuatre <leflem.mateo2002@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {}
+}
